@@ -31,11 +31,11 @@ export class Form {
 
   setError = (name, error) => {
     const span = document.querySelector(
-      `.form__error[name="$Ирина"]`,
+      `.form__error[name="${name}"]`,
     )
 
     const field = document.querySelector(
-      `.validation[name="$Ирина"]`,
+      `.validation[name="${name}"]`,
     )
 
     if (span) {
