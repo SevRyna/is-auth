@@ -90,7 +90,7 @@ class UserItem extends List {
 </div>
 <div class="data">
 <span class="data__title">E-mail</span>
-<span class="data__value ">$palna02@ukr.net</span>
+<span class="data__value ">${email}</span>
 </div>
 <div class="data">
 <span class="data__title">Роль</span>
